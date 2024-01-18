@@ -1,0 +1,78 @@
+---
+name: ag_news
+dataset: ag_news
+text: True
+partitioning: hetero-dir
+#partitioning: iid
+arch: textCC
+device: cuda
+
+#startCheckPoint: "./checkpoints/model_at_epoch_500_0.05_500_false.pt"
+
+modelParams:
+  vocabSize: 0
+#  embeddingDim: 95811
+  embeddingDim: 1000
+  hiddenDim: 200
+  outputDim: 4
+  numLayers: 2
+  bidirectional: false
+  padIdx: 0
+  dropout: 0.25
+  device: cuda
+  
+normalTrainConfig:
+  batchSize: 20
+  testBatchSize: 20
+  method: None
+  optimizer: sgd
+  initLr: 0.05
+  momentum: 0.9
+  weightDecay: 0.0001
+  internalEpochs: 20
+  
+attackerTrainConfig:
+  batchSize: 20
+  testBatchSize: 20
+  method: blackbox   # options blackbox|pgd
+  optimizer: sgd
+  initLr: 0.01
+  momentum: 0.9
+  modelReplacement: False
+  weightDecay: 0.0001
+  epsilon: 2.0      # will be used by pgd only
+  projectFrequency: 1 # will be used by pgd only
+  internalEpochs: 20
+
+totalUsers: 100
+minRequiredSize: 20
+  
+numActiveUsersPerRound: 10
+
+numEdgePtsAdv: 600
+numEdgePtsGood: 0
+numIIDUsers: 800
+beta: 0.5
+
+#numFLEpochs: 500
+numFLEpochs: 500
+enableCkpt: True
+
+ckptEpochs: [ 10, 50, 100, 200, 300, 400, 500 ]
+#ckptEpochs: [ 0, 5, 10, 20, 30, 40, 50, 60, 70, 90]
+
+#outputDir: $../../outputs/name_initLr_numFLEpochs_attack
+#outputDir: ./outputs/ag_news-cuda-RNN-hetero-dir-backdoor-testing-v3/
+outputDir: ./results/ag_news-cuda-REAL-weakdp-std-0.05-nb-1-b-0.5/
+
+attack: True
+backdoor: add-placeholder
+attackFreq: 10
+numAdversaries: 1
+attackFromEpoch: 100
+epsilon: 0.05
+normBound: 1.0
+#defenseTechnique: weakDp
+
+
+
