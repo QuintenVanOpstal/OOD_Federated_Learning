@@ -6,6 +6,7 @@ text: True
 partitioning: iid
 arch: textCC
 device: cuda
+dataPath: .
 
 #startCheckPoint: "./checkpoints/model_at_epoch_500_0.05_500_false.pt"
 

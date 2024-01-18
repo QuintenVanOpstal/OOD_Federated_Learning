@@ -6,6 +6,7 @@ partitioning: hetero-dir
 #partitioning: iid
 arch: textCC
 device: cuda
+dataPath: .
 
 #startCheckPoint: "./checkpoints/model_at_epoch_500_0.05_500_false.pt"
 
@@ -72,7 +73,7 @@ numAdversaries: 1
 attackFromEpoch: 100
 epsilon: 0.05
 normBound: 1.0
-#defenseTechnique: weakDp
+defenseTechnique: weakDp
 
 
 

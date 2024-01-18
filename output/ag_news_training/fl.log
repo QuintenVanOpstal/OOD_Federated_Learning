@@ -1,0 +1,136 @@
+INFO:root: noDefense: True
+INFO:root:size of test data 7600
+INFO:root:attack from epoch 10000000
+INFO:root:Test Accuracy of loaded global Model is: 25.039473684210527
+INFO:root:================FL round 1 Begins ===================
+INFO:root:[False, False, False, False, False, False, False, False, False, False]
+INFO:root:FL Epoch: 1 Workers Selected : [61, 21, 12, 81, 98, 56, 66, 49, 36, 62]
+INFO:root:FL Epoch: 1 Fraction of points on each worker in this round: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+INFO:root:FL Epoch: 1 Num points on workers: [800 800 800 800 800 800 800 800 800 800]
+INFO:root:--------------------------
+INFO:root:FL Epoch: 1 Training on worker :61
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 61 is 0.802075
+INFO:root:FL Epoch: 1 Done on worker:61
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :21
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 21 is 0.870156
+INFO:root:FL Epoch: 1 Done on worker:21
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :12
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 12 is 0.846164
+INFO:root:FL Epoch: 1 Done on worker:12
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :81
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 81 is 0.794158
+INFO:root:FL Epoch: 1 Done on worker:81
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :98
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 98 is 0.798064
+INFO:root:FL Epoch: 1 Done on worker:98
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :56
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 56 is 0.79223
+INFO:root:FL Epoch: 1 Done on worker:56
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :66
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 66 is 0.858408
+INFO:root:FL Epoch: 1 Done on worker:66
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :49
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 49 is 0.826972
+INFO:root:FL Epoch: 1 Done on worker:49
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :36
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 36 is 0.856312
+INFO:root:FL Epoch: 1 Done on worker:36
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Training on worker :62
+INFO:root:FL Epoch: 1 Using Learning rate : 0.05 
+INFO:root:FL Epoch: 1 Normal Training
+INFO:root:FL Epoch: 1 Norm Difference for worker 62 is 0.856755
+INFO:root:FL Epoch: 1 Done on worker:62
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 1 Saving Best Checkpoint at this epoch.
+INFO:root:FL Epoch: 1 Saved Best Checkpoint at this epoch.
+INFO:root:================FL round 1 Ends   ===================
+INFO:root:Epoch:1 Global Model Test Loss:6.867673873901367 and Test Accuracy:30.210526315789473 
+INFO:root:=======================================================
+INFO:root:================FL round 2 Begins ===================
+INFO:root:[False, False, False, False, False, False, False, False, False, False]
+INFO:root:FL Epoch: 2 Workers Selected : [63, 38, 80, 13, 83, 94, 37, 78, 95, 68]
+INFO:root:FL Epoch: 2 Fraction of points on each worker in this round: [0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1]
+INFO:root:FL Epoch: 2 Num points on workers: [800 800 800 800 800 800 800 800 800 800]
+INFO:root:--------------------------
+INFO:root:FL Epoch: 2 Training on worker :63
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 63 is 0.811475
+INFO:root:FL Epoch: 2 Done on worker:63
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :38
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 38 is 0.634616
+INFO:root:FL Epoch: 2 Done on worker:38
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :80
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 80 is 0.710246
+INFO:root:FL Epoch: 2 Done on worker:80
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :13
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 13 is 0.704454
+INFO:root:FL Epoch: 2 Done on worker:13
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :83
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 83 is 0.80726
+INFO:root:FL Epoch: 2 Done on worker:83
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :94
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training
+INFO:root:FL Epoch: 2 Norm Difference for worker 94 is 0.721776
+INFO:root:FL Epoch: 2 Done on worker:94
+INFO:root:--------------------------
+INFO:root:Aggregated update now, as there is no defense
+INFO:root:FL Epoch: 2 Training on worker :37
+INFO:root:FL Epoch: 2 Using Learning rate : 0.0499 
+INFO:root:FL Epoch: 2 Normal Training

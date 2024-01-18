@@ -1,21 +1,10 @@
 from datetime import time
 
 import torch.nn
-import numpy
 
-import torch.optim as optim
-from models.lenet import *
-from models.lenet import LeNet5
-from torch.utils.data import DataLoader
-import logging
-import os
 from globalUtils import *
-import globalUtils
 
 import torch
-#from torchtext import data
-#from torchtext import datasets
-from torch.nn.utils import parameters_to_vector, vector_to_parameters
 from .generic_model_training import GenericModelTraining
 
 class TextCCModelTraining(GenericModelTraining):
